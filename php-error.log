@@ -2,3 +2,9 @@
 [13-Dec-2021 17:57:44 UTC] Inicia App
 [13-Dec-2021 18:00:16 UTC] Inicia App
 [13-Dec-2021 18:00:21 UTC] Inicia App
+[13-Dec-2021 21:59:18 UTC] Inicia App
+[13-Dec-2021 23:31:12 UTC] Inicia App
+[13-Dec-2021 23:31:12 UTC] PHP Warning:  Undefined array key "S3_BUCKET" in C:\Users\Usuario\Documents\Udemy\Clon Instragram PHP MVC\src\lib\routes.php on line 10
+[13-Dec-2021 23:32:01 UTC] Inicia App
+[13-Dec-2021 23:32:14 UTC] Inicia App
+[13-Dec-2021 23:32:20 UTC] Inicia App

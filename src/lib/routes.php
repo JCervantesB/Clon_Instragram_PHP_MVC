@@ -2,6 +2,8 @@
 
 $router = new \Bramus\Router\Router();
 session_start();
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../config/');
+$dotenv->load();
 
 $router->get('/', function() {
     echo "Inicio";
@@ -9,13 +11,13 @@ $router->get('/', function() {
 $router->get('/login', function() {
     echo "Desde Login";
 });
-$router->get('/auth', function() {
+$router->post('/auth', function() {
     echo "Desde auth";
 });
 $router->get('/singup', function() {
     echo "Desde singup";
 });
-$router->get('/register', function() {
+$router->post('/register', function() {
     echo "Desde register";
 });
 $router->get('/home', function() {
